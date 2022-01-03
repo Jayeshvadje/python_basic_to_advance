@@ -1,0 +1,5 @@
+# this is the program for addition of two number
+a=int(input("enter 1st number \t \n"))
+b=int(input("enter 2nd number \t \n"))
+sum=a+b
+print(sum)
