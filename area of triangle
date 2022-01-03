@@ -1,0 +1,15 @@
+# this is a program to find the area of triangle
+
+"""take all inputs from user"""
+a=float(input("enter the 1st side  "))
+b=float(input("enter the 2nd side "))
+c=float(input("enter the  3rd side "))
+
+"""use formula for to find semi perimeter"""
+s= (a + b + c) / 2
+
+"""use formula to calculate the area"""
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+
+"""print the area of tringle"""
+print("area of triangle is = ",area)
