@@ -1,0 +1,10 @@
+#this is the program to find the square root of the number
+
+"""taking the input of a number"""
+a=int(input("enter the number \t \n"))
+
+"""multiplying the input with same number so it will give us sq.root"""
+sqr = a*a
+
+"""print the output"""
+print(f"square root of {a} is =" , sqr)
