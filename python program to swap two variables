@@ -1,0 +1,24 @@
+#program to swap two numbers
+
+"""take two inputs from user"""
+
+a=float(input("enter first number \t \n"))
+b=float(input("enter second number \t \n"))
+
+""""print the numbers which user gave"""
+
+print(f"you entered {a} at first position and {b} at second position \n")
+print("a = ",a)
+print("b = ",b)
+
+"""opration to swap the numbers"""
+
+temp = a
+a = b
+b = temp
+
+"""print the numbers after swap"""
+
+print("\n numbers after swapping \n")
+print("a = ",a)
+print("b = ",b)
