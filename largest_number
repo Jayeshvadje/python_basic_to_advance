@@ -1,0 +1,14 @@
+#program to find the largest number amoung three
+
+"""take three inputs from user"""
+a=float(input("enter first number\n"))
+b=float(input("enter second number\n"))
+c=float(input("enter third number\n"))
+
+"""use if else to cheak the greater number"""
+if a>b and a>c:
+    print("a is largest")
+elif b>a and b>c:
+    print("b is largest")
+else:
+    print("c is largest")
